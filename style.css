@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid black;
+    text-align: center;
+    width: 40%;
+    background-color: turquoise;
+    
+}
+.move {
+    height: 200px;
+    width: 95%;
+}
+#rock {
+    height: 70%;
+    width: 25%;
+    background-image: url(rock.jpeg);
+    background-size: cover;
+    rotate: 180deg;
+}
+#paper {
+    height: 70%;
+    width:25%;
+    background-image: url(paper.png);
+        background-size: cover;
+
+}
+#scissor {
+    height: 70%;
+    width: 25%;
+    background-image: url(scissor.jpg);
+        background-size: cover;
+
+}
+button:hover {
+    opacity: 0.7;;
+}
